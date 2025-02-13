@@ -1,3 +1,4 @@
+// sync on line 206
 /*jslint browser: true, nomen: true, unparam: true */
 /*global Image: false */
 (function () {
@@ -203,6 +204,8 @@
 
             reDrawLine(myLine, topCount);
 
+            syncCredits(topCount);
+            
         }, 20);
     };
 
